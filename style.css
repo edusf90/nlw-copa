@@ -45,6 +45,7 @@ body * {
   width: fit-content;
   margin: auto;
   padding-top: 52px;
+  margin-bottom: 32px;
 }
 
 header {
@@ -120,12 +121,12 @@ header {
 .card h2,
 .card ul li strong,
 .card ul li img {
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .card {
   opacity: 0;
-  animation: appear 2s forwards;
+  animation: appear 1s forwards;
 }
 
 @keyframes appear {
